@@ -178,8 +178,8 @@ public class GenerateData {
     };
     
     public static void init() {
-        deleteOldData();
-        generateNewData();        
+        generateNewData();
+        // deleteOldData();        
     }
     
     private static void deleteOldData() {
